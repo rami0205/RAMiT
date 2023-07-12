@@ -1,0 +1,23 @@
+# model settings
+name: RAMiT
+in_chans: 3 # if gray in args.target_mode 1 when parsing opts
+dim: 48
+depths: [4,2,2,4]
+num_heads: [4,4,4,4]
+head_dim: null
+chsa_head_ratio: 0.25
+window_size: 8
+hidden_ratio: 2.0
+qkv_bias: True
+mv_ver: 2
+exp_factor: 1.2
+expand_groups: 4
+act_layer: nn.GELU
+norm_layer: ReshapeLayerNorm
+tail_mv: 2
+attn_drop: 0.0
+proj_drop: 0.0
+drop_path: 0.0
+helper: True
+hrami: True
+mv_act: nn.LeakyReLU

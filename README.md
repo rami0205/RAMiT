@@ -8,7 +8,7 @@ Haram Choi<sup>*</sup>, Cheolwoong Na, Jihyeon Oh, Seungjae Lee, Jinseop Kim, Su
 <sup>+</sup>: Corresponding author.
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-00E600)](https://arxiv.org/abs/2305.11474)
-[![visual](https://img.shields.io/badge/Visual-Results-FF5050)](https://github.com/rami0205/RAMiT)
+[![visual](https://img.shields.io/badge/Visual-Results-FF5050)](https://1drv.ms/f/s!AoUesdU_BVZri5xOqem2eCHKNxQ88Q)
 
 - Proposes RAMiT which employs Dimensional Reciprocal Attention Mixing Transformer (D-RAMiT) and Hierarchical Reciprocal Attention Mixer (H-RAMi)
 - D-RAMiT: computing bi-dimensional self-attention in parallel to capture both local and global dependencies
@@ -41,35 +41,49 @@ Haram Choi<sup>*</sup>, Cheolwoong Na, Jihyeon Oh, Seungjae Lee, Jinseop Kim, Su
 ### Lightweight Image Restoration Results
 
 <details>
-<summary>Super-Resolution</summary>
+<summary>Super-Resolution (SR)</summary>
 
 ![image](https://github.com/rami0205/RAMiT/assets/69415453/891646e4-2dd2-46b4-8a66-fcf9d5e32108)
 
 </details>
 
 <details>
-<summary>Color Denoising</summary>
+<summary>slimSR</summary>
+
+![image](https://github.com/rami0205/RAMiT/assets/69415453/22a2c7fb-a9ec-4b46-8c8b-479e98a1d238)
+
+</details>
+
+<details>
+<summary>SR trade-off</summary>
+
+![image](https://github.com/rami0205/RAMiT/assets/69415453/7a5584a5-e6ac-4a28-9f49-3105d5a28bb6)
+
+</details>
+
+<details>
+<summary>Color Denoising (CDN)</summary>
 
 ![image](https://github.com/rami0205/RAMiT/assets/69415453/c857c150-6c7e-47ee-b316-ad42a490f346)
 
 </details>
 
 <details>
-<summary>Grayscale Denoising</summary>
+<summary>Grayscale Denoising (GDN)</summary>
   
 ![image](https://github.com/rami0205/RAMiT/assets/69415453/a5a94a5d-deee-4906-8fcb-0b10c5ea4623)
 
 </details>
 
 <details>
-<summary>Low-Light Enhancement</summary>
+<summary>Low-Light Enhancement (LLE)</summary>
 
 ![image](https://github.com/rami0205/RAMiT/assets/69415453/57b04c41-b630-44e1-bf13-8b542666aef8)
 
 </details>
 
 <details>
-<summary>Deraining</summary>
+<summary>Deraining (DR)</summary>
 
 ![image](https://github.com/rami0205/RAMiT/assets/69415453/d78eaec8-5eac-4024-875a-de7b614c0e0d)
 
@@ -77,35 +91,37 @@ Haram Choi<sup>*</sup>, Cheolwoong Na, Jihyeon Oh, Seungjae Lee, Jinseop Kim, Su
 
 ### Visual Results
 
+#### * The visual results on the other images can be downloaded in my [drive](https://1drv.ms/f/s!AoUesdU_BVZri5xOqem2eCHKNxQ88Q).
+
 <details>
-<summary>Super-Resolution</summary>
+<summary>Super-Resolution (SR)</summary>
 
 ![image](https://github.com/rami0205/RAMiT/assets/69415453/71cf0ce5-2dad-49d7-af3d-c5a58ead2260)
 
 </details>
 
 <details>
-<summary>Color Denoising</summary>
+<summary>Color Denoising (CDN)</summary>
 
 ![image](https://github.com/rami0205/RAMiT/assets/69415453/1f5eca0b-d7f3-4a77-9585-21e3678badbf)
 
 </details>
 
 <details>
-<summary>Low-Light Enhancement</summary>
+<summary>Low-Light Enhancement (LLE)</summary>
 
 ![image](https://github.com/rami0205/RAMiT/assets/69415453/909a3084-ca9b-481e-b417-de530ec9f002)
 
 </details>
 
 <details>
-<summary>Deraining</summary>
+<summary>Deraining (DR)</summary>
 
 ![image](https://github.com/rami0205/RAMiT/assets/69415453/1e605152-3ac5-4e70-998a-fbd561c73f2c)
 
 </details>
 
-## Testing Instruction (with pre-trained models)
+## Testing Instructions (with pre-trained models)
 
 Please properly edit the first five arguments to work on your devices.
 
@@ -166,7 +182,7 @@ python3 ddp_main_test.py --total_nodes 1 --gpus_per_node 1 --node_rank 0 --ip_ad
 python3 ddp_main_test.py --total_nodes 1 --gpus_per_node 1 --node_rank 0 --ip_address [ip address XXX.XXX.XXX.XXX] --backend gloo --model_name RAMiT --pretrain_path ./pretrained/RAMiT_DR.pth --task lightweight_dr --target_mode light_dr --result_image_save --img_norm
 ```
 
-## Training Instruction
+## Training Instructions
 
 Please properly edit the first five arguments to work on your devices.
 

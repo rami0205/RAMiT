@@ -1,6 +1,6 @@
 # RAMiT
 
-## RAMiT: Reciprocal Attention Mixing Transformer for Lightweight Image Restoration
+## Reciprocal Attention Mixing Transformer for Lightweight Image Restoration (CVPR 2024 Workshop NTIRE)
 Haram Choi<sup>*</sup>, Cheolwoong Na, Jihyeon Oh, Seungjae Lee, Jinseop Kim, Subeen Choe, Jeongmin Lee, Taehoon Kim, and Jihoon Yang<sup>+</sup>
 
 <sup>*</sup>: This work has been done during Master Course in Sogang University.
@@ -16,6 +16,8 @@ Haram Choi<sup>*</sup>, Cheolwoong Na, Jihyeon Oh, Seungjae Lee, Jinseop Kim, Su
 - Achieves state-of-the-art results on five lightweight image restoration tasks: Super-Resolution, Color Denoising, Grayscale Denoising, Low-Light Enhancement, Deraining
 
 ### News
+-**April 17, 2024:** Accepted at CVPR 2024 Workshop [NTIRE](https://cvlai.net/ntire/2024/) (New Trends in Image Restoration and Enhancement)
+
 -**July 12, 2023:** Codes released publicly
 
 -**May 19, 2023:** Pre-printed at arXiv

@@ -256,8 +256,16 @@ python3 ddp_main.py --total_nodes 1 --gpus_per_node 2 --node_rank 0 --ip_address
 
 ### Citation
 ```
-@article{choi2023ramit,
-  title={RAMiT: Reciprocal Attention Mixing Transformer for Lightweight Image Restoration},
+(preferred)
+@inproceedings{choi2024reciprocal,
+  title={Reciprocal Attention Mixing Transformer for Lightweight Image Restoration},
+  author={Choi, Haram and Na, Cheolwoong and Oh, Jihyeon and Lee, Seungjae and Kim, Jinseop and Choe, Subeen and Lee, Jeongmin and Kim, Taehoon and Yang, Jihoon},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  year={2024}
+}
+
+@article{choi2023reciprocal,
+  title={Reciprocal Attention Mixing Transformer for Lightweight Image Restoration},
   author={Choi, Haram and Na, Cheolwoong and Oh, Jihyeon and Lee, Seungjae and Kim, Jinseop and Choe, Subeen and Lee, Jeongmin and Kim, Taehoon and Yang, Jihoon},
   journal={arXiv preprint arXiv:2305.11474},
   year={2023}

@@ -9,7 +9,7 @@ Haram Choi<sup>*</sup>, Cheolwoong Na, Jihyeon Oh, Seungjae Lee, Jinseop Kim, Su
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-00E600)](https://arxiv.org/abs/2305.11474)
 [![visual](https://img.shields.io/badge/Visual-Results-FF5050)](https://1drv.ms/f/s!AoUesdU_BVZri5xOqem2eCHKNxQ88Q)
-[![poster](https://img.shields.io/badge/Presentation-Poster-B762C1)]([https://1drv.ms/b/s!AoUesdU_BVZrivhToAyuJQf0z5DLVQ?e=QfipK2](https://1drv.ms/b/s!AoUesdU_BVZrjJwR8xL7GTv2--O3vg))
+[![poster](https://img.shields.io/badge/Presentation-Poster-B762C1)](https://1drv.ms/b/s!AoUesdU_BVZrjJwR8xL7GTv2--O3vg)
 
 - Proposes RAMiT which employs Dimensional Reciprocal Attention Mixing Transformer (D-RAMiT) and Hierarchical Reciprocal Attention Mixer (H-RAMi)
 - D-RAMiT: computing bi-dimensional self-attention in parallel to capture both local and global dependencies

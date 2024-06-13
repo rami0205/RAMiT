@@ -266,6 +266,7 @@ python3 ddp_main.py --total_nodes 1 --gpus_per_node 2 --node_rank 0 --ip_address
   title={Reciprocal Attention Mixing Transformer for Lightweight Image Restoration},
   author={Choi, Haram and Na, Cheolwoong and Oh, Jihyeon and Lee, Seungjae and Kim, Jinseop and Choe, Subeen and Lee, Jeongmin and Kim, Taehoon and Yang, Jihoon},
   booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={5992--6002}
   year={2024}
 }
 

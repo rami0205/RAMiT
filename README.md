@@ -8,6 +8,8 @@ Haram Choi<sup>*</sup>, Cheolwoong Na, Jihyeon Oh, Seungjae Lee, Jinseop Kim, Su
 <sup>+</sup>: Corresponding author.
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-00E600)](https://arxiv.org/abs/2305.11474)
+[![paper](https://img.shields.io/badge/CVF-Paper-6196CA)](https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Choi_Reciprocal_Attention_Mixing_Transformer_for_Lightweight_Image_Restoration_CVPRW_2024_paper.pdf)
+[![supplement](https://img.shields.io/badge/Supplementary-Material-E5B095)](https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/supplemental/Choi_Reciprocal_Attention_Mixing_CVPRW_2024_supplemental.pdf)
 [![visual](https://img.shields.io/badge/Visual-Results-FF5050)](https://1drv.ms/f/s!AoUesdU_BVZri5xOqem2eCHKNxQ88Q)
 [![poster](https://img.shields.io/badge/Presentation-Poster-B762C1)](https://1drv.ms/b/s!AoUesdU_BVZrjJwR8xL7GTv2--O3vg)
 
